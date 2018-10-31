@@ -1,0 +1,3 @@
+[submodule "themes/wixo"]
+	path = themes/wixo
+	url = https://github.com/zhiyue/hexo-theme-wixo.git
