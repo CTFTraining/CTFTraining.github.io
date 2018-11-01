@@ -408,7 +408,7 @@ chokidar@^1.5.2, chokidar@^1.6.0:
   optionalDependencies:
     fsevents "^1.0.0"
 
-chokidar@^2.0.0, chokidar@^2.0.4:
+chokidar@^2.0.0:
   version "2.0.4"
   resolved "http://registry.npm.taobao.org/chokidar/download/chokidar-2.0.4.tgz#356ff4e2b0e8e43e322d18a372460bbcf3accd26"
   integrity sha1-NW/04rDo5D4yLRijckYLvPOszSY=
@@ -714,11 +714,6 @@ ee-first@1.1.1:
   version "1.1.1"
   resolved "http://registry.npm.taobao.org/ee-first/download/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
-
-ejs@^1.0.0:
-  version "1.0.0"
-  resolved "http://registry.npm.taobao.org/ejs/download/ejs-1.0.0.tgz#c9c60a48a46ee452fb32a71c317b95e5aa1fcb3d"
-  integrity sha1-ycYKSKRu5FL7MqccMXuV5aofyz0=
 
 ejs@^2.3.4:
   version "2.6.1"
@@ -1097,16 +1092,6 @@ hexo-fs@^0.2.0:
     escape-string-regexp "^1.0.5"
     graceful-fs "^4.1.4"
 
-hexo-fs@^1.0.0:
-  version "1.0.0"
-  resolved "http://registry.npm.taobao.org/hexo-fs/download/hexo-fs-1.0.0.tgz#bf0a7bee6d3a5e1105bb544ffbbc83bb3e345787"
-  integrity sha1-vwp77m06XhEFu1RP+7yDuz40V4c=
-  dependencies:
-    bluebird "^3.5.1"
-    chokidar "^2.0.4"
-    escape-string-regexp "^1.0.5"
-    graceful-fs "^4.1.11"
-
 hexo-generator-archive@^0.1.5:
   version "0.1.5"
   resolved "http://registry.npm.taobao.org/hexo-generator-archive/download/hexo-generator-archive-0.1.5.tgz#a979214cdddee2693e0551809c294bedadbb69b3"
@@ -1203,13 +1188,6 @@ hexo-renderer-marked@^0.3.2:
     marked "^0.3.9"
     object-assign "^4.1.1"
     strip-indent "^2.0.0"
-
-hexo-renderer-mathjax@^0.6.0:
-  version "0.6.0"
-  resolved "http://registry.npm.taobao.org/hexo-renderer-mathjax/download/hexo-renderer-mathjax-0.6.0.tgz#f42e41a158a41a6409ecdc92a132137358f601fa"
-  integrity sha1-9C5BoVikGmQJ7NySoTITc1j2Afo=
-  dependencies:
-    ejs "^1.0.0"
 
 hexo-renderer-stylus@^0.3.3:
   version "0.3.3"
