@@ -78,4 +78,7 @@ theme: wixo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  message: update
+  repo: https://github.com/CTFTraining/ctftraining.github.io.git
+  branch: gh-pages

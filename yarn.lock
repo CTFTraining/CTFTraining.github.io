@@ -1139,6 +1139,14 @@ hexo-generator-index@^0.2.1:
     hexo-pagination "0.0.2"
     object-assign "^4.0.1"
 
+hexo-generator-search@^2.3.0:
+  version "2.3.0"
+  resolved "http://registry.npm.taobao.org/hexo-generator-search/download/hexo-generator-search-2.3.0.tgz#82f0ef46fc34c09fe3296310655a14ab7fa5eaaa"
+  integrity sha1-gvDvRvw0wJ/jKWMQZVoUq3+l6qo=
+  dependencies:
+    nunjucks "^3.0.1"
+    utils-merge "^1.0.0"
+
 hexo-generator-sitemap@1:
   version "1.2.0"
   resolved "http://registry.npm.taobao.org/hexo-generator-sitemap/download/hexo-generator-sitemap-1.2.0.tgz#3018f8d7d1e2e42b3f71a65a7316ffcf583bc3f3"
@@ -1225,6 +1233,11 @@ hexo-server@^0.3.1:
     object-assign "^4.1.1"
     opn "^5.3.0"
     serve-static "^1.13.2"
+
+hexo-tag-bootstrap@^0.1.2:
+  version "0.1.2"
+  resolved "http://registry.npm.taobao.org/hexo-tag-bootstrap/download/hexo-tag-bootstrap-0.1.2.tgz#8abd49d1f4b42b846898a74c202207cf84dcdf37"
+  integrity sha1-ir1J0fS0K4RomKdMICIHz4Tc3zc=
 
 hexo-util@^0.6.0, hexo-util@^0.6.2, hexo-util@^0.6.3:
   version "0.6.3"
@@ -2019,7 +2032,7 @@ nunjucks@^2.3.0:
     chokidar "^1.6.0"
     yargs "^3.32.0"
 
-nunjucks@^3.0.0, nunjucks@^3.1.2:
+nunjucks@^3.0.0, nunjucks@^3.0.1, nunjucks@^3.1.2:
   version "3.1.3"
   resolved "http://registry.npm.taobao.org/nunjucks/download/nunjucks-3.1.3.tgz#9a23c844af01c143a0b40f3bdd1212a9d7877260"
   integrity sha1-miPIRK8BwUOgtA873RISqdeHcmA=

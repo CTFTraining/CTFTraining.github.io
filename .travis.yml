@@ -1,0 +1,54 @@
+# Deploy hexo site by travis-ci
+# https://github.com/jkeylu/deploy-hexo-site-by-travis-ci
+# LICENSE: MIT
+#
+# 1. Copy this file to the root of your repository, then rename it to '.travis.yml'
+# 2. Replace 'YOUR NAME' and 'YOUR EMAIL' at line 29
+# 3. Add an Environment Variable 'DEPLOY_REPO'
+#     1. Generate github access token on https://github.com/settings/applications#personal-access-tokens
+#     2. Add an Environment Variable on https://travis-ci.org/{github username}/{repository name}/settings/env_vars
+#         Variable Name: DEPLOY_REPO
+#         Variable Value: https://{githb access token}@github.com/{github username}/{repository name}.git 
+#         Example: DEPLOY_REPO=https://6b75cfe9836f56e6d21187622730889874476c23@github.com/jkeylu/test-hexo-on-travis-ci.git
+
+language: node_js
+
+node_js:
+  - "0.12"
+
+branches:
+  only:
+    - source
+
+before_install:
+  - yarn install -g hexo-cli   
+
+install:
+  #- npm install hexo-renderer-ejs@0.1.0 --save
+  #- npm install hexo-renderer-marked@0.1.0 --save
+  #- npm install hexo-renderer-stylus@0.1.0 --save
+  #- npm install hexo-generator-feed@0.2.1 --save
+  #- npm install hexo-generator-sitemap@0.2.0 --save
+  #- npm install hexo-tag-bootstrap@0.0.6 --save
+  - yarn install   
+
+
+script:
+  - "git submodule init"
+  - "git submodule update"
+  - "hexo generate"
+  
+after_success:
+  - "git clone $DEPLOY_REPO git_deploy"
+  - "cd git_deploy"
+  - "git checkout gh-pages"
+  - "cd .."
+  - "rm -r git_deploy/*"
+  - "cp -r public/* git_deploy"
+  - "cd git_deploy"
+  - "git config --global push.default simple"
+  - "git config --global user.name 'virink'"
+  - "git config --global user.email virink@outlook.com"
+  - "git add -A"
+  - "git commit -m 'Site updated'"
+  - "git push -f -q"
