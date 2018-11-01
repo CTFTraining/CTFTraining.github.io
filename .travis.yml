@@ -14,14 +14,14 @@
 language: node_js
 
 node_js:
-  - "0.12"
+  - "10"
 
 branches:
   only:
     - source
 
 before_install:
-  - yarn install -g hexo-cli   
+  - yarn global add hexo-cli   
 
 install:
   #- npm install hexo-renderer-ejs@0.1.0 --save
@@ -39,9 +39,9 @@ script:
   - "hexo generate"
   
 after_success:
-  - "git clone $DEPLOY_REPO git_deploy"
+  - "git clone https://$DEPLOY_REPO git_deploy"
   - "cd git_deploy"
-  - "git checkout gh-pages"
+  - "git checkout master"
   - "cd .."
   - "rm -r git_deploy/*"
   - "cp -r public/* git_deploy"
@@ -51,4 +51,8 @@ after_success:
   - "git config --global user.email virink@outlook.com"
   - "git add -A"
   - "git commit -m 'Site updated'"
-  - "git push -f -q"
+  - "git push -f -q https://${GH_TOKEN}@${DEPLOY_REPO}"
+
+env:
+ global:
+   - DEPLOY_REPO: github.com/CTFTraining/ctftraining.github.io.git
