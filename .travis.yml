@@ -51,7 +51,7 @@ after_success:
   - "git config --global user.email virink@outlook.com"
   - "git add -A"
   - "git commit -m 'Site updated'"
-  - "git push -f -q https://${GH_TOKEN}@${DEPLOY_REPO}"
+  - "git push -f https://${GH_TOKEN}@${DEPLOY_REPO}"
 
 env:
  global:
