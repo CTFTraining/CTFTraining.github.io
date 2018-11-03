@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ctftraining.github.io/"/>
-  <updated>2018-11-03T03:30:45.873Z</updated>
+  <updated>2018-11-03T05:13:52.573Z</updated>
   <id>https://ctftraining.github.io/</id>
   
   <author>
@@ -17,20 +17,19 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hello-world</title>
-    <link href="https://ctftraining.github.io/2018/11/01/hello-world/"/>
-    <id>https://ctftraining.github.io/2018/11/01/hello-world/</id>
-    <published>2018-11-01T08:06:09.000Z</published>
-    <updated>2018-11-03T03:30:45.873Z</updated>
+    <title>贡献指南 Contribution Guide</title>
+    <link href="https://ctftraining.github.io/2018/11/03/contribution-guide/"/>
+    <id>https://ctftraining.github.io/2018/11/03/contribution-guide/</id>
+    <published>2018-11-03T11:51:42.000Z</published>
+    <updated>2018-11-03T05:13:52.573Z</updated>
     
-    <content type="html"><![CDATA[<p>hello-world</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="贡献指南-Contribution-Guide"><a href="#贡献指南-Contribution-Guide" class="headerlink" title="贡献指南 Contribution Guide"></a>贡献指南 Contribution Guide</h1><h2 id="Repository-Rules"><a href="#Repository-Rules" class="headerlink" title="Repository Rules"></a>Repository Rules</h2><h3 id="Name-Rules"><a href="#Name-Rules" class="headerlink" title="Name Rules"></a>Name Rules</h3><p>比赛名称_年份<em>题目名称</em>其他 GameName_Year_ChallengeName_Others <code>/\w+_\d{4}_\w+/</code></p><p>eg. <code>westerns_2018_shrine</code> and <code>ctf473831530_2018_web_virink</code></p><h3 id="Description-Rules"><a href="#Description-Rules" class="headerlink" title="Description Rules"></a>Description Rules</h3><p>Able to describe clearly what the challenge is.</p><p>eg. <strong>护网杯 2018 WEB (4) easy_laravel</strong> and <strong>CTF学习交流入群题 Web 20180626</strong></p><h3 id="File-Rules"><a href="#File-Rules" class="headerlink" title="File Rules"></a>File Rules</h3><ul><li><strong>Dockerfile (require)</strong></li><li><strong>docker-compose.yml (require)</strong></li><li><strong>README.md (require)</strong></li><li><strong>SourceCode file or directory (require)</strong></li><li>vhost.conf</li><li>.gitignore</li><li>LICENSE</li></ul><p>Just like other challenge.</p><h2 id="How-to-contribute-challenge"><a href="#How-to-contribute-challenge" class="headerlink" title="How to contribute challenge"></a>How to contribute challenge</h2><ol><li>Create a challenge repository on GitHub</li><li>Create a new issue in this repository</li><li>Waiting for the audit</li><li>We will fork your repository after approval</li></ol><h2 id="How-to-update-existing-challenge"><a href="#How-to-update-existing-challenge" class="headerlink" title="How to update existing challenge"></a>How to update existing challenge</h2><ol><li>Update your repository</li><li>Pull Request</li><li>Waiting for the audit</li><li>We will merge your repository after approval</li></ol>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;hello-world&lt;/p&gt;
-
+        &lt;h1 id=&quot;贡献指南-Contribution-Guide&quot;&gt;&lt;a href=&quot;#贡献指南-Contribution-Guide&quot; class=&quot;headerlink&quot; title=&quot;贡献指南 Contribution Guide&quot;&gt;&lt;/a&gt;贡献指南 Contribution
       
     
     </summary>
