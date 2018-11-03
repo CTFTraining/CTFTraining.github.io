@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CTF Training</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://ctftraining.github.io/"/>
+  <updated>2018-11-03T03:30:45.873Z</updated>
+  <id>https://ctftraining.github.io/</id>
+  
+  <author>
+    <name>CTF Training</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hello-world</title>
+    <link href="https://ctftraining.github.io/2018/11/01/hello-world/"/>
+    <id>https://ctftraining.github.io/2018/11/01/hello-world/</id>
+    <published>2018-11-01T08:06:09.000Z</published>
+    <updated>2018-11-03T03:30:45.873Z</updated>
+    
+    <content type="html"><![CDATA[<p>hello-world</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;hello-world&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="Info" scheme="https://ctftraining.github.io/categories/Info/"/>
+    
+    
+  </entry>
+  
+</feed>
