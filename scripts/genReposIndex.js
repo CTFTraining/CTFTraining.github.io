@@ -36,6 +36,9 @@ function unique(arr) {
 
 
 hexo.extend.generator.register('genReposIndex', function(locals) {
+	if (process.env.DEBUG == 1) {
+		return {};
+	}
 	var self = this;
 	exec(`curl https://ctftraining.github.io/compose.json -w %{http_code} -o ${indexFile} -k -s`, function(err, stdout, stderr) {
 		if (!err) {
