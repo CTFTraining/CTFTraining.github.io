@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ctftraining.github.io/"/>
-  <updated>2018-11-03T05:13:52.573Z</updated>
+  <updated>2018-11-04T04:32:31.744Z</updated>
   <id>https://ctftraining.github.io/</id>
   
   <author>
@@ -17,11 +17,42 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>PWNHUB 公开赛 / 傻 fufu 的工作日</title>
+    <link href="https://ctftraining.github.io/2018/11/03/sctf_2018_babysyc/"/>
+    <id>https://ctftraining.github.io/2018/11/03/sctf_2018_babysyc/</id>
+    <published>2018-11-03T12:08:36.000Z</published>
+    <updated>2018-11-04T04:32:31.744Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="SCTF-2018-BabySyc-Simple-PHP-Web"><a href="#SCTF-2018-BabySyc-Simple-PHP-Web" class="headerlink" title="SCTF 2018 BabySyc - Simple PHP Web"></a>SCTF 2018 BabySyc - Simple PHP Web</h1><h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><p><a href="https://github.com/CTFTraining/sctf_2018_babysyc" target="_blank" rel="noopener">sctf_2018_babysyc</a></p><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li>php加密扩展</li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>php加密扩展（逆向）</li><li>本地包含</li><li>代码审计</li><li>加密解密</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:8081/</code></pre><h2 id="Writeups"><a href="#Writeups" class="headerlink" title="Writeups"></a>Writeups</h2><blockquote><p><a href="https://www.cnblogs.com/iamstudy/articles/sctf2018_simple_php_web_writeup.html" target="_blank" rel="noopener">SCTF2018 BabySyc - Simple PHP Web Writeup - l3m0n</a><br>拓展 <a href="https://xz.aliyun.com/t/2403" target="_blank" rel="noopener">看我如何玩转PHP代码加密与解密</a></p></blockquote><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>感谢 l3m0n@SCTF2018 友情支持</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;SCTF-2018-BabySyc-Simple-PHP-Web&quot;&gt;&lt;a href=&quot;#SCTF-2018-BabySyc-Simple-PHP-Web&quot; class=&quot;headerlink&quot; title=&quot;SCTF 2018 BabySyc - Simple P
+      
+    
+    </summary>
+    
+      <category term="Sctf" scheme="https://ctftraining.github.io/categories/Sctf/"/>
+    
+    
+      <category term="php" scheme="https://ctftraining.github.io/tags/php/"/>
+    
+      <category term="crypto" scheme="https://ctftraining.github.io/tags/crypto/"/>
+    
+      <category term="ext" scheme="https://ctftraining.github.io/tags/ext/"/>
+    
+      <category term="lfi" scheme="https://ctftraining.github.io/tags/lfi/"/>
+    
+  </entry>
+  
+  <entry>
     <title>贡献指南 Contribution Guide</title>
     <link href="https://ctftraining.github.io/2018/11/03/contribution-guide/"/>
     <id>https://ctftraining.github.io/2018/11/03/contribution-guide/</id>
     <published>2018-11-03T11:51:42.000Z</published>
-    <updated>2018-11-03T05:13:52.573Z</updated>
+    <updated>2018-11-04T04:32:31.744Z</updated>
     
     <content type="html"><![CDATA[<h1 id="贡献指南-Contribution-Guide"><a href="#贡献指南-Contribution-Guide" class="headerlink" title="贡献指南 Contribution Guide"></a>贡献指南 Contribution Guide</h1><h2 id="Repository-Rules"><a href="#Repository-Rules" class="headerlink" title="Repository Rules"></a>Repository Rules</h2><h3 id="Name-Rules"><a href="#Name-Rules" class="headerlink" title="Name Rules"></a>Name Rules</h3><p>比赛名称_年份<em>题目名称</em>其他 GameName_Year_ChallengeName_Others <code>/\w+_\d{4}_\w+/</code></p><p>eg. <code>westerns_2018_shrine</code> and <code>ctf473831530_2018_web_virink</code></p><h3 id="Description-Rules"><a href="#Description-Rules" class="headerlink" title="Description Rules"></a>Description Rules</h3><p>Able to describe clearly what the challenge is.</p><p>eg. <strong>护网杯 2018 WEB (4) easy_laravel</strong> and <strong>CTF学习交流入群题 Web 20180626</strong></p><h3 id="File-Rules"><a href="#File-Rules" class="headerlink" title="File Rules"></a>File Rules</h3><ul><li><strong>Dockerfile (require)</strong></li><li><strong>docker-compose.yml (require)</strong></li><li><strong>README.md (require)</strong></li><li><strong>SourceCode file or directory (require)</strong></li><li>vhost.conf</li><li>.gitignore</li><li>LICENSE</li></ul><p>Just like other challenge.</p><h2 id="How-to-contribute-challenge"><a href="#How-to-contribute-challenge" class="headerlink" title="How to contribute challenge"></a>How to contribute challenge</h2><ol><li>Create a challenge repository on GitHub</li><li>Create a new issue in this repository</li><li>Waiting for the audit</li><li>We will fork your repository after approval</li></ol><h2 id="How-to-update-existing-challenge"><a href="#How-to-update-existing-challenge" class="headerlink" title="How to update existing challenge"></a>How to update existing challenge</h2><ol><li>Update your repository</li><li>Pull Request</li><li>Waiting for the audit</li><li>We will merge your repository after approval</li></ol>]]></content>
     
@@ -36,6 +67,167 @@
     
       <category term="Info" scheme="https://ctftraining.github.io/categories/Info/"/>
     
+    
+      <category term="contribution" scheme="https://ctftraining.github.io/tags/contribution/"/>
+    
+      <category term="guide" scheme="https://ctftraining.github.io/tags/guide/"/>
+    
+      <category term="update" scheme="https://ctftraining.github.io/tags/update/"/>
+    
+      <category term="challenge" scheme="https://ctftraining.github.io/tags/challenge/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PWNHUB 公开赛 / 傻 fufu 的工作日</title>
+    <link href="https://ctftraining.github.io/2018/11/03/pwnhub_2017_open_weekday/"/>
+    <id>https://ctftraining.github.io/2018/11/03/pwnhub_2017_open_weekday/</id>
+    <published>2018-11-03T11:48:36.000Z</published>
+    <updated>2018-11-04T04:32:31.744Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="PWNHUB-公开赛-傻-fufu-的工作日"><a href="#PWNHUB-公开赛-傻-fufu-的工作日" class="headerlink" title="PWNHUB 公开赛 / 傻 fufu 的工作日"></a>PWNHUB 公开赛 / 傻 fufu 的工作日</h1><h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><p><a href="https://github.com/CTFTraining/pwnhub_2017_open_weekday" target="_blank" rel="noopener">pwnhub_2017_open_weekday</a></p><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><p>参赛时间：2017.09.19 20:00 - 2017.09.22 20:00</p><p><a href="https://pwnhub.cn/publicgamedetail/3" target="_blank" rel="noopener">https://pwnhub.cn/publicgamedetail/3</a></p><p>啊～又到了（划水的）工作日，工作一整天，人都傻 fufu 的了…</p><p>不如让我们来跟胖哈勃来一场星际旅行吧！</p><p>快来！就差你啦</p><p>说明：花钱解密源码和说不清源码解密方式的同学，酌情往后排，能说清楚源码解密原理并给出方法的同学加分。</p><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>PHP加密解密</li><li>代码审计</li><li>PHP的Array</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:8081/</code></pre><h2 id="Writeups"><a href="#Writeups" class="headerlink" title="Writeups"></a>Writeups</h2><blockquote><p><a href="https://www.virzz.com/2017/09/20/pwnhub_writeups_sha_fu_fu_workdays.html" target="_blank" rel="noopener">PWNHUB 公开赛 / 傻 fufu 的工作日 Writeup - Virink’s Blog</a><br><a href="https://www.leavesongs.com/PENETRATION/unobfuscated-phpjiami.html" target="_blank" rel="noopener">phpjiami 数种解密方法 | 离别歌</a><br>拓展 <a href="https://xz.aliyun.com/t/2403" target="_blank" rel="noopener">看我如何玩转PHP代码加密与解密</a><br>拓展 <a href="https://github.com/virink/phpext_phpjiami_decode" target="_blank" rel="noopener">GitHub phpext_phpjiami_decode</a></p></blockquote><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>感谢 长亭科技 PWNHUB 及 出题人 PHITHON 大神 提供授权</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;PWNHUB-公开赛-傻-fufu-的工作日&quot;&gt;&lt;a href=&quot;#PWNHUB-公开赛-傻-fufu-的工作日&quot; class=&quot;headerlink&quot; title=&quot;PWNHUB 公开赛 / 傻 fufu 的工作日&quot;&gt;&lt;/a&gt;PWNHUB 公开赛 / 傻 fuf
+      
+    
+    </summary>
+    
+      <category term="Pwnhub" scheme="https://ctftraining.github.io/categories/Pwnhub/"/>
+    
+    
+      <category term="php" scheme="https://ctftraining.github.io/tags/php/"/>
+    
+      <category term="crypto" scheme="https://ctftraining.github.io/tags/crypto/"/>
+    
+      <category term="phpjiami" scheme="https://ctftraining.github.io/tags/phpjiami/"/>
+    
+      <category term="bak" scheme="https://ctftraining.github.io/tags/bak/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Westerns CTF 4th 2018 shrine</title>
+    <link href="https://ctftraining.github.io/2018/11/02/westerns_2018_shrine/"/>
+    <id>https://ctftraining.github.io/2018/11/02/westerns_2018_shrine/</id>
+    <published>2018-11-02T16:31:22.000Z</published>
+    <updated>2018-11-04T04:32:31.744Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Westerns-CTF-4th-2018-shrine"><a href="#Westerns-CTF-4th-2018-shrine" class="headerlink" title="Westerns CTF 4th 2018 shrine"></a>Westerns CTF 4th 2018 shrine</h1><h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><p><a href="https://github.com/CTFTraining/westerns_2018_shrine" target="_blank" rel="noopener">westerns_2018_shrine</a></p><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li>Tokyo Westerns CTF 4th 2018 WEB shrine</li><li><strong>SSTI</strong></li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>SSTI</li><li>Flask 框架</li><li>Bypass Sandbox</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:8081/</code></pre><h2 id="复现说明及修改"><a href="#复现说明及修改" class="headerlink" title="复现说明及修改"></a>复现说明及修改</h2><p>该环境根据比赛过程显示的源码进行复现。</p><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:virink@outlook.com" target="_blank" rel="noopener">virink@outlook.com</a> ）</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Westerns-CTF-4th-2018-shrine&quot;&gt;&lt;a href=&quot;#Westerns-CTF-4th-2018-shrine&quot; class=&quot;headerlink&quot; title=&quot;Westerns CTF 4th 2018 shrine&quot;&gt;&lt;/a&gt;We
+      
+    
+    </summary>
+    
+      <category term="Westerns" scheme="https://ctftraining.github.io/categories/Westerns/"/>
+    
+    
+      <category term="python" scheme="https://ctftraining.github.io/tags/python/"/>
+    
+      <category term="ssti" scheme="https://ctftraining.github.io/tags/ssti/"/>
+    
+      <category term="flask" scheme="https://ctftraining.github.io/tags/flask/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>护网杯 2018 easy_tornado</title>
+    <link href="https://ctftraining.github.io/2018/11/02/huwangbei_2018_easy_tornado/"/>
+    <id>https://ctftraining.github.io/2018/11/02/huwangbei_2018_easy_tornado/</id>
+    <published>2018-11-02T11:31:22.000Z</published>
+    <updated>2018-11-04T04:32:31.744Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="护网杯-2018-easy-tornado"><a href="#护网杯-2018-easy-tornado" class="headerlink" title="护网杯 2018 easy_tornado"></a>护网杯 2018 easy_tornado</h1><h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><p><a href="https://github.com/CTFTraining/huwangbei_2018_easy_tornado" target="_blank" rel="noopener">huwangbei_2018_easy_tornado</a></p><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li><a href="http://www.huwangbei.cn/" target="_blank" rel="noopener">http://www.huwangbei.cn/</a></li><li>护网杯 2018 WEB (1) easy_tornado</li><li><strong>SSTI</strong></li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>SSTI</li><li>Tornado 框架</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:8081/</code></pre><h2 id="复现说明及修改"><a href="#复现说明及修改" class="headerlink" title="复现说明及修改"></a>复现说明及修改</h2><p>该环境根据比赛过程推理进行复现。</p><ul><li>懒得做界面美化</li><li>早知道当时应该偷窥一下源码了</li></ul><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:virink@outlook.com" target="_blank" rel="noopener">virink@outlook.com</a> ）</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;护网杯-2018-easy-tornado&quot;&gt;&lt;a href=&quot;#护网杯-2018-easy-tornado&quot; class=&quot;headerlink&quot; title=&quot;护网杯 2018 easy_tornado&quot;&gt;&lt;/a&gt;护网杯 2018 easy_tornado&lt;/
+      
+    
+    </summary>
+    
+      <category term="Huwangbei" scheme="https://ctftraining.github.io/categories/Huwangbei/"/>
+    
+    
+      <category term="python" scheme="https://ctftraining.github.io/tags/python/"/>
+    
+      <category term="tornado" scheme="https://ctftraining.github.io/tags/tornado/"/>
+    
+      <category term="ssti" scheme="https://ctftraining.github.io/tags/ssti/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>护网杯 2018 easy_laravel</title>
+    <link href="https://ctftraining.github.io/2018/11/02/huwangbei_2018_easy_laravel/"/>
+    <id>https://ctftraining.github.io/2018/11/02/huwangbei_2018_easy_laravel/</id>
+    <published>2018-11-02T10:51:42.000Z</published>
+    <updated>2018-11-04T04:32:31.744Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="护网杯-2018-easy-laravel"><a href="#护网杯-2018-easy-laravel" class="headerlink" title="护网杯 2018 easy_laravel"></a>护网杯 2018 easy_laravel</h1><h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><p><a href="https://github.com/CTFTraining/huwangbei_2018_easy_laravel" target="_blank" rel="noopener">huwangbei_2018_easy_laravel</a></p><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li><a href="http://www.huwangbei.cn/" target="_blank" rel="noopener">http://www.huwangbei.cn/</a></li><li>护网杯 2018 WEB (4) easy_laravel</li><li><strong>PHP 代码审计</strong></li></ul><h3 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h3><pre><code>+ blade+ pop chain</code></pre><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>代码审计</li><li>简单注入</li><li>Laravel 框架 Auth、Blade模板</li><li>反序列化 <a href="https://paper.seebug.org/680/" target="_blank" rel="noopener">利用phar 拓展 php 反序列化漏洞攻击面</a></li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:8081/</code></pre><h2 id="复现说明及修改"><a href="#复现说明及修改" class="headerlink" title="复现说明及修改"></a>复现说明及修改</h2><p>该环境根据 github 开源代码 <code>https://github.com/qqqqqqvq/easy_laravel</code> 及打比赛过程推理进行复现。</p><ul><li>采用 sqlite 作为数据库，减小体积（不影响做题）</li><li>增加自动重置管理员密码脚本（虽然没什么卵用）</li><li>增加自动重置恢复缓存文件脚本</li></ul><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:virink@outlook.com" target="_blank" rel="noopener">virink@outlook.com</a> ）</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;护网杯-2018-easy-laravel&quot;&gt;&lt;a href=&quot;#护网杯-2018-easy-laravel&quot; class=&quot;headerlink&quot; title=&quot;护网杯 2018 easy_laravel&quot;&gt;&lt;/a&gt;护网杯 2018 easy_laravel&lt;/
+      
+    
+    </summary>
+    
+      <category term="Huwangbei" scheme="https://ctftraining.github.io/categories/Huwangbei/"/>
+    
+    
+      <category term="php" scheme="https://ctftraining.github.io/tags/php/"/>
+    
+      <category term="laravel" scheme="https://ctftraining.github.io/tags/laravel/"/>
+    
+      <category term="blade" scheme="https://ctftraining.github.io/tags/blade/"/>
+    
+      <category term="phar" scheme="https://ctftraining.github.io/tags/phar/"/>
+    
+      <category term="sql" scheme="https://ctftraining.github.io/tags/sql/"/>
+    
+      <category term="unserialize" scheme="https://ctftraining.github.io/tags/unserialize/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CTF学习交流入群题 Web 20180626</title>
+    <link href="https://ctftraining.github.io/2018/11/02/ctf473831530_2018_web_virink/"/>
+    <id>https://ctftraining.github.io/2018/11/02/ctf473831530_2018_web_virink/</id>
+    <published>2018-11-02T09:51:42.000Z</published>
+    <updated>2018-11-04T04:32:31.744Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="CTF学习交流入群题-Web-20180626"><a href="#CTF学习交流入群题-Web-20180626" class="headerlink" title="CTF学习交流入群题 Web 20180626"></a>CTF学习交流入群题 Web 20180626</h1><h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><p><a href="https://github.com/CTFTraining/ctf473831530_2018_web_virink" target="_blank" rel="noopener">ctf473831530_2018_web_virink</a></p><h2 id="Run"><a href="#Run" class="headerlink" title="Run"></a>Run</h2><pre><code>docker-compose up -d</code></pre><p>then, open <a href="http://127.0.0.1:10002" target="_blank" rel="noopener">http://127.0.0.1:10002</a></p><p><strong>Maybe you can use Nginx</strong></p><p>copy <code>vhost.conf</code> to Nginx’s conf and rename for you like</p><p>then, you can open <a href="http://473831530.local.virzz.com" target="_blank" rel="noopener">http://473831530.local.virzz.com</a> for it</p><p><strong>Domain DNS Record</strong></p><pre><code>A *.local.virzz.com 127.0.0.1</code></pre><h2 id="ChangeLog"><a href="#ChangeLog" class="headerlink" title="ChangeLog"></a>ChangeLog</h2><ul><li>Add DockerHub Repo [2018-10-15]</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;CTF学习交流入群题-Web-20180626&quot;&gt;&lt;a href=&quot;#CTF学习交流入群题-Web-20180626&quot; class=&quot;headerlink&quot; title=&quot;CTF学习交流入群题 Web 20180626&quot;&gt;&lt;/a&gt;CTF学习交流入群题 Web 20
+      
+    
+    </summary>
+    
+      <category term="Others" scheme="https://ctftraining.github.io/categories/Others/"/>
+    
+    
+      <category term="php" scheme="https://ctftraining.github.io/tags/php/"/>
+    
+      <category term="getshell" scheme="https://ctftraining.github.io/tags/getshell/"/>
+    
+      <category term="penetration" scheme="https://ctftraining.github.io/tags/penetration/"/>
     
   </entry>
   

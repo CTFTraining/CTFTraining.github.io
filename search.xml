@@ -3,6 +3,35 @@
   
     
     <entry>
+      <title>PWNHUB 公开赛 / 傻 fufu 的工作日</title>
+      <link href="/2018/11/03/sctf_2018_babysyc/"/>
+      <url>/2018/11/03/sctf_2018_babysyc/</url>
+      
+        <content type="html"><![CDATA[<h1 id="SCTF-2018-BabySyc-Simple-PHP-Web"><a href="#SCTF-2018-BabySyc-Simple-PHP-Web" class="headerlink" title="SCTF 2018 BabySyc - Simple PHP Web"></a>SCTF 2018 BabySyc - Simple PHP Web</h1><h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><p><a href="https://github.com/CTFTraining/sctf_2018_babysyc" target="_blank" rel="noopener">sctf_2018_babysyc</a></p><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li>php加密扩展</li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>php加密扩展（逆向）</li><li>本地包含</li><li>代码审计</li><li>加密解密</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:8081/</code></pre><h2 id="Writeups"><a href="#Writeups" class="headerlink" title="Writeups"></a>Writeups</h2><blockquote><p><a href="https://www.cnblogs.com/iamstudy/articles/sctf2018_simple_php_web_writeup.html" target="_blank" rel="noopener">SCTF2018 BabySyc - Simple PHP Web Writeup - l3m0n</a><br>拓展 <a href="https://xz.aliyun.com/t/2403" target="_blank" rel="noopener">看我如何玩转PHP代码加密与解密</a></p></blockquote><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>感谢 l3m0n@SCTF2018 友情支持</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Sctf </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> php </tag>
+            
+            <tag> crypto </tag>
+            
+            <tag> ext </tag>
+            
+            <tag> lfi </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>贡献指南 Contribution Guide</title>
       <link href="/2018/11/03/contribution-guide/"/>
       <url>/2018/11/03/contribution-guide/</url>
@@ -16,6 +45,161 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> contribution </tag>
+            
+            <tag> guide </tag>
+            
+            <tag> update </tag>
+            
+            <tag> challenge </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>PWNHUB 公开赛 / 傻 fufu 的工作日</title>
+      <link href="/2018/11/03/pwnhub_2017_open_weekday/"/>
+      <url>/2018/11/03/pwnhub_2017_open_weekday/</url>
+      
+        <content type="html"><![CDATA[<h1 id="PWNHUB-公开赛-傻-fufu-的工作日"><a href="#PWNHUB-公开赛-傻-fufu-的工作日" class="headerlink" title="PWNHUB 公开赛 / 傻 fufu 的工作日"></a>PWNHUB 公开赛 / 傻 fufu 的工作日</h1><h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><p><a href="https://github.com/CTFTraining/pwnhub_2017_open_weekday" target="_blank" rel="noopener">pwnhub_2017_open_weekday</a></p><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><p>参赛时间：2017.09.19 20:00 - 2017.09.22 20:00</p><p><a href="https://pwnhub.cn/publicgamedetail/3" target="_blank" rel="noopener">https://pwnhub.cn/publicgamedetail/3</a></p><p>啊～又到了（划水的）工作日，工作一整天，人都傻 fufu 的了…</p><p>不如让我们来跟胖哈勃来一场星际旅行吧！</p><p>快来！就差你啦</p><p>说明：花钱解密源码和说不清源码解密方式的同学，酌情往后排，能说清楚源码解密原理并给出方法的同学加分。</p><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>PHP加密解密</li><li>代码审计</li><li>PHP的Array</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:8081/</code></pre><h2 id="Writeups"><a href="#Writeups" class="headerlink" title="Writeups"></a>Writeups</h2><blockquote><p><a href="https://www.virzz.com/2017/09/20/pwnhub_writeups_sha_fu_fu_workdays.html" target="_blank" rel="noopener">PWNHUB 公开赛 / 傻 fufu 的工作日 Writeup - Virink’s Blog</a><br><a href="https://www.leavesongs.com/PENETRATION/unobfuscated-phpjiami.html" target="_blank" rel="noopener">phpjiami 数种解密方法 | 离别歌</a><br>拓展 <a href="https://xz.aliyun.com/t/2403" target="_blank" rel="noopener">看我如何玩转PHP代码加密与解密</a><br>拓展 <a href="https://github.com/virink/phpext_phpjiami_decode" target="_blank" rel="noopener">GitHub phpext_phpjiami_decode</a></p></blockquote><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>感谢 长亭科技 PWNHUB 及 出题人 PHITHON 大神 提供授权</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Pwnhub </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> php </tag>
+            
+            <tag> crypto </tag>
+            
+            <tag> phpjiami </tag>
+            
+            <tag> bak </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Westerns CTF 4th 2018 shrine</title>
+      <link href="/2018/11/02/westerns_2018_shrine/"/>
+      <url>/2018/11/02/westerns_2018_shrine/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Westerns-CTF-4th-2018-shrine"><a href="#Westerns-CTF-4th-2018-shrine" class="headerlink" title="Westerns CTF 4th 2018 shrine"></a>Westerns CTF 4th 2018 shrine</h1><h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><p><a href="https://github.com/CTFTraining/westerns_2018_shrine" target="_blank" rel="noopener">westerns_2018_shrine</a></p><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li>Tokyo Westerns CTF 4th 2018 WEB shrine</li><li><strong>SSTI</strong></li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>SSTI</li><li>Flask 框架</li><li>Bypass Sandbox</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:8081/</code></pre><h2 id="复现说明及修改"><a href="#复现说明及修改" class="headerlink" title="复现说明及修改"></a>复现说明及修改</h2><p>该环境根据比赛过程显示的源码进行复现。</p><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:virink@outlook.com" target="_blank" rel="noopener">virink@outlook.com</a> ）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Westerns </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+            <tag> ssti </tag>
+            
+            <tag> flask </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>护网杯 2018 easy_tornado</title>
+      <link href="/2018/11/02/huwangbei_2018_easy_tornado/"/>
+      <url>/2018/11/02/huwangbei_2018_easy_tornado/</url>
+      
+        <content type="html"><![CDATA[<h1 id="护网杯-2018-easy-tornado"><a href="#护网杯-2018-easy-tornado" class="headerlink" title="护网杯 2018 easy_tornado"></a>护网杯 2018 easy_tornado</h1><h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><p><a href="https://github.com/CTFTraining/huwangbei_2018_easy_tornado" target="_blank" rel="noopener">huwangbei_2018_easy_tornado</a></p><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li><a href="http://www.huwangbei.cn/" target="_blank" rel="noopener">http://www.huwangbei.cn/</a></li><li>护网杯 2018 WEB (1) easy_tornado</li><li><strong>SSTI</strong></li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>SSTI</li><li>Tornado 框架</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:8081/</code></pre><h2 id="复现说明及修改"><a href="#复现说明及修改" class="headerlink" title="复现说明及修改"></a>复现说明及修改</h2><p>该环境根据比赛过程推理进行复现。</p><ul><li>懒得做界面美化</li><li>早知道当时应该偷窥一下源码了</li></ul><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:virink@outlook.com" target="_blank" rel="noopener">virink@outlook.com</a> ）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Huwangbei </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+            <tag> tornado </tag>
+            
+            <tag> ssti </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>护网杯 2018 easy_laravel</title>
+      <link href="/2018/11/02/huwangbei_2018_easy_laravel/"/>
+      <url>/2018/11/02/huwangbei_2018_easy_laravel/</url>
+      
+        <content type="html"><![CDATA[<h1 id="护网杯-2018-easy-laravel"><a href="#护网杯-2018-easy-laravel" class="headerlink" title="护网杯 2018 easy_laravel"></a>护网杯 2018 easy_laravel</h1><h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><p><a href="https://github.com/CTFTraining/huwangbei_2018_easy_laravel" target="_blank" rel="noopener">huwangbei_2018_easy_laravel</a></p><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li><a href="http://www.huwangbei.cn/" target="_blank" rel="noopener">http://www.huwangbei.cn/</a></li><li>护网杯 2018 WEB (4) easy_laravel</li><li><strong>PHP 代码审计</strong></li></ul><h3 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h3><pre><code>+ blade+ pop chain</code></pre><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>代码审计</li><li>简单注入</li><li>Laravel 框架 Auth、Blade模板</li><li>反序列化 <a href="https://paper.seebug.org/680/" target="_blank" rel="noopener">利用phar 拓展 php 反序列化漏洞攻击面</a></li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:8081/</code></pre><h2 id="复现说明及修改"><a href="#复现说明及修改" class="headerlink" title="复现说明及修改"></a>复现说明及修改</h2><p>该环境根据 github 开源代码 <code>https://github.com/qqqqqqvq/easy_laravel</code> 及打比赛过程推理进行复现。</p><ul><li>采用 sqlite 作为数据库，减小体积（不影响做题）</li><li>增加自动重置管理员密码脚本（虽然没什么卵用）</li><li>增加自动重置恢复缓存文件脚本</li></ul><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:virink@outlook.com" target="_blank" rel="noopener">virink@outlook.com</a> ）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Huwangbei </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> php </tag>
+            
+            <tag> laravel </tag>
+            
+            <tag> blade </tag>
+            
+            <tag> phar </tag>
+            
+            <tag> sql </tag>
+            
+            <tag> unserialize </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>CTF学习交流入群题 Web 20180626</title>
+      <link href="/2018/11/02/ctf473831530_2018_web_virink/"/>
+      <url>/2018/11/02/ctf473831530_2018_web_virink/</url>
+      
+        <content type="html"><![CDATA[<h1 id="CTF学习交流入群题-Web-20180626"><a href="#CTF学习交流入群题-Web-20180626" class="headerlink" title="CTF学习交流入群题 Web 20180626"></a>CTF学习交流入群题 Web 20180626</h1><h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><p><a href="https://github.com/CTFTraining/ctf473831530_2018_web_virink" target="_blank" rel="noopener">ctf473831530_2018_web_virink</a></p><h2 id="Run"><a href="#Run" class="headerlink" title="Run"></a>Run</h2><pre><code>docker-compose up -d</code></pre><p>then, open <a href="http://127.0.0.1:10002" target="_blank" rel="noopener">http://127.0.0.1:10002</a></p><p><strong>Maybe you can use Nginx</strong></p><p>copy <code>vhost.conf</code> to Nginx’s conf and rename for you like</p><p>then, you can open <a href="http://473831530.local.virzz.com" target="_blank" rel="noopener">http://473831530.local.virzz.com</a> for it</p><p><strong>Domain DNS Record</strong></p><pre><code>A *.local.virzz.com 127.0.0.1</code></pre><h2 id="ChangeLog"><a href="#ChangeLog" class="headerlink" title="ChangeLog"></a>ChangeLog</h2><ul><li>Add DockerHub Repo [2018-10-15]</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Others </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> php </tag>
+            
+            <tag> getshell </tag>
+            
+            <tag> penetration </tag>
+            
+        </tags>
       
     </entry>
     

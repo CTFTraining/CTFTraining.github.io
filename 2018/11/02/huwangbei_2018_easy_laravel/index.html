@@ -3,16 +3,24 @@
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="utf-8">
   
-  <title>贡献指南 Contribution Guide | CTF Training</title>
+  <title>护网杯 2018 easy_laravel | CTF Training</title>
   <meta name="author" content="CTF Training">
   
-  <meta name="description" content="贡献指南 Contribution GuideRepository RulesName Rules比赛名称_年份题目名称其他 GameName_Year_ChallengeName_Others /\w+_\d{4}_\w+/
-eg. westerns_2018_shrine and ctf4738">
+  <meta name="description" content="护网杯 2018 easy_laravelLinkhuwangbei_2018_easy_laravel
+题目详情
+http://www.huwangbei.cn/
+护网杯 2018 WEB (4) easy_laravel
+PHP 代码审计
+
+提示+ blade
++ pop chain
+考点
+代码">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="贡献指南 Contribution Guide">
+  <meta property="og:title" content="护网杯 2018 easy_laravel">
   <meta property="og:site_name" content="CTF Training">
 
   
@@ -59,7 +67,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
   <div class="container" id="container">
 	<div class="content">
 	  <div class="page-header">		
-  <h1><a class="brand" href="/">CTF Training</a><span class="split"></span><span class="title">贡献指南 Contribution Guide</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2018-11-03</span></h1>
+  <h1><a class="brand" href="/">CTF Training</a><span class="split"></span><span class="title">护网杯 2018 easy_laravel</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2018-11-02</span></h1>
 </div>		
 
 <div class="row page">
@@ -81,32 +89,29 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	
 
 	  <!-- content -->
-	  <h1 id="贡献指南-Contribution-Guide"><a href="#贡献指南-Contribution-Guide" class="headerlink" title="贡献指南 Contribution Guide"></a>贡献指南 Contribution Guide</h1><h2 id="Repository-Rules"><a href="#Repository-Rules" class="headerlink" title="Repository Rules"></a>Repository Rules</h2><h3 id="Name-Rules"><a href="#Name-Rules" class="headerlink" title="Name Rules"></a>Name Rules</h3><p>比赛名称_年份<em>题目名称</em>其他 GameName_Year_ChallengeName_Others <code>/\w+_\d{4}_\w+/</code></p>
-<p>eg. <code>westerns_2018_shrine</code> and <code>ctf473831530_2018_web_virink</code></p>
-<h3 id="Description-Rules"><a href="#Description-Rules" class="headerlink" title="Description Rules"></a>Description Rules</h3><p>Able to describe clearly what the challenge is.</p>
-<p>eg. <strong>护网杯 2018 WEB (4) easy_laravel</strong> and <strong>CTF学习交流入群题 Web 20180626</strong></p>
-<h3 id="File-Rules"><a href="#File-Rules" class="headerlink" title="File Rules"></a>File Rules</h3><ul>
-<li><strong>Dockerfile (require)</strong></li>
-<li><strong>docker-compose.yml (require)</strong></li>
-<li><strong>README.md (require)</strong></li>
-<li><strong>SourceCode file or directory (require)</strong></li>
-<li>vhost.conf</li>
-<li>.gitignore</li>
-<li>LICENSE</li>
+	  <h1 id="护网杯-2018-easy-laravel"><a href="#护网杯-2018-easy-laravel" class="headerlink" title="护网杯 2018 easy_laravel"></a>护网杯 2018 easy_laravel</h1><h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><p><a href="https://github.com/CTFTraining/huwangbei_2018_easy_laravel" target="_blank" rel="noopener">huwangbei_2018_easy_laravel</a></p>
+<h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul>
+<li><a href="http://www.huwangbei.cn/" target="_blank" rel="noopener">http://www.huwangbei.cn/</a></li>
+<li>护网杯 2018 WEB (4) easy_laravel</li>
+<li><strong>PHP 代码审计</strong></li>
 </ul>
-<p>Just like other challenge.</p>
-<h2 id="How-to-contribute-challenge"><a href="#How-to-contribute-challenge" class="headerlink" title="How to contribute challenge"></a>How to contribute challenge</h2><ol>
-<li>Create a challenge repository on GitHub</li>
-<li>Create a new issue in this repository</li>
-<li>Waiting for the audit</li>
-<li>We will fork your repository after approval</li>
-</ol>
-<h2 id="How-to-update-existing-challenge"><a href="#How-to-update-existing-challenge" class="headerlink" title="How to update existing challenge"></a>How to update existing challenge</h2><ol>
-<li>Update your repository</li>
-<li>Pull Request</li>
-<li>Waiting for the audit</li>
-<li>We will merge your repository after approval</li>
-</ol>
+<h3 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h3><pre><code>+ blade
++ pop chain
+</code></pre><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul>
+<li>代码审计</li>
+<li>简单注入</li>
+<li>Laravel 框架 Auth、Blade模板</li>
+<li>反序列化 <a href="https://paper.seebug.org/680/" target="_blank" rel="noopener">利用phar 拓展 php 反序列化漏洞攻击面</a></li>
+</ul>
+<h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -d
+open http://127.0.0.1:8081/
+</code></pre><h2 id="复现说明及修改"><a href="#复现说明及修改" class="headerlink" title="复现说明及修改"></a>复现说明及修改</h2><p>该环境根据 github 开源代码 <code>https://github.com/qqqqqqvq/easy_laravel</code> 及打比赛过程推理进行复现。</p>
+<ul>
+<li>采用 sqlite 作为数据库，减小体积（不影响做题）</li>
+<li>增加自动重置管理员密码脚本（虽然没什么卵用）</li>
+<li>增加自动重置恢复缓存文件脚本</li>
+</ul>
+<h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:virink@outlook.com" target="_blank" rel="noopener">virink@outlook.com</a> ）</p>
 	  
 
 	  <div>
@@ -121,22 +126,24 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 		
 	
 		
+	
+		
+	
+		
+	
+		
+			
+		
+	
+		
 			
 			
 		
 	
 		
 	
-		
 	
-		
-	
-		
-	
-		
-	
-	
-		<li class="prev disabled"><a><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+		<li class="prev"><a href="/2018/11/02/huwangbei_2018_easy_tornado/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
 	
 	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
 	
