@@ -24,15 +24,17 @@
   
   
   <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
-  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
-  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">  
-  <link rel="stylesheet" href="/css/sidenav.css" media="screen" type="text/css">  
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/sidenav.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/gh-profile-card.min.css" media="screen" type="text/css">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
-  <script src="/js/jquery-2.0.3.min.js"></script>
+  <script src="/js/jquery-3.3.1.min.js"></script>
+  <script src="/js/gh-profile-card.min.js"></script>
 
   <!-- analytics -->
   
@@ -63,6 +65,37 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	<div class="col-md-12">
 		<div class="panel-group" id="notebook">
 			
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<a class="panel-title" data-toggle="collapse" data-parent="#notebook" href="#Info">
+						<i class="fa fa-folder-open"></i> Info		  
+				</a></div>
+				<div id="Info" class="panel-collapse collapse in">
+					<div class="panel-body">
+						<ul class="post">
+							
+							    
+							
+							    
+							        <li class="post-list-item"><i class="fa fa-file-text"></i> <a href="/2018/11/03/contribution-guide/">贡献指南 Contribution Guide</a></li>
+							    
+							
+							    
+							
+							    
+							
+							    
+							
+							    
+							
+							    
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			
 			
 			<div class="panel panel-default">
 				<div class="panel-heading">
@@ -70,7 +103,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 						<i class="fa fa-folder"></i> Huwangbei		  
 				</a></div>
 				
-					<div id="Huwangbei" class="panel-collapse collapse in">
+				    <div id="Huwangbei" class="panel-collapse collapse">
 				
 						<div class="panel-body">
 							<ul class="post">
@@ -84,11 +117,11 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 								    
 								
 								    
-								        <li class="post-list-item"><a href="/2018/11/02/huwangbei_2018_easy_tornado/">护网杯 2018 easy_tornado</a></li>
+								        <li class="post-list-item"><i class="fa fa-file-text"></i> <a href="/2018/11/02/huwangbei_2018_easy_tornado/">护网杯 2018 easy_tornado</a></li>
 								    
 								
 								    
-								        <li class="post-list-item"><a href="/2018/11/02/huwangbei_2018_easy_laravel/">护网杯 2018 easy_laravel</a></li>
+								        <li class="post-list-item"><i class="fa fa-file-text"></i> <a href="/2018/11/02/huwangbei_2018_easy_laravel/">护网杯 2018 easy_laravel</a></li>
 								    
 								
 								    
@@ -98,37 +131,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 					</div>
 			</div>
 			
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<a class="panel-title" data-toggle="collapse" data-parent="#notebook" href="#Info">
-						<i class="fa fa-folder"></i> Info		  
-				</a></div>
-				
-					<div id="Info" class="panel-collapse collapse in">
-				
-						<div class="panel-body">
-							<ul class="post">
-								
-								    
-								
-								    
-								        <li class="post-list-item"><a href="/2018/11/03/contribution-guide/">贡献指南 Contribution Guide</a></li>
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-								    
-								
-							</ul>
-						</div>
-					</div>
-			</div>
+			
 			
 			<div class="panel panel-default">
 				<div class="panel-heading">
@@ -136,7 +139,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 						<i class="fa fa-folder"></i> Others		  
 				</a></div>
 				
-					<div id="Others" class="panel-collapse collapse in">
+				    <div id="Others" class="panel-collapse collapse">
 				
 						<div class="panel-body">
 							<ul class="post">
@@ -154,13 +157,14 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 								    
 								
 								    
-								        <li class="post-list-item"><a href="/2018/11/02/ctf473831530_2018_web_virink/">CTF学习交流入群题 Web 20180626</a></li>
+								        <li class="post-list-item"><i class="fa fa-file-text"></i> <a href="/2018/11/02/ctf473831530_2018_web_virink/">CTF学习交流入群题 Web 20180626</a></li>
 								    
 								
 							</ul>
 						</div>
 					</div>
 			</div>
+			
 			
 			<div class="panel panel-default">
 				<div class="panel-heading">
@@ -168,7 +172,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 						<i class="fa fa-folder"></i> Pwnhub		  
 				</a></div>
 				
-					<div id="Pwnhub" class="panel-collapse collapse in">
+				    <div id="Pwnhub" class="panel-collapse collapse">
 				
 						<div class="panel-body">
 							<ul class="post">
@@ -178,7 +182,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 								    
 								
 								    
-								        <li class="post-list-item"><a href="/2018/11/03/pwnhub_2017_open_weekday/">PWNHUB 公开赛 / 傻 fufu 的工作日</a></li>
+								        <li class="post-list-item"><i class="fa fa-file-text"></i> <a href="/2018/11/03/pwnhub_2017_open_weekday/">PWNHUB 公开赛 / 傻 fufu 的工作日</a></li>
 								    
 								
 								    
@@ -193,6 +197,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 						</div>
 					</div>
 			</div>
+			
 			
 			<div class="panel panel-default">
 				<div class="panel-heading">
@@ -200,13 +205,13 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 						<i class="fa fa-folder"></i> Sctf		  
 				</a></div>
 				
-					<div id="Sctf" class="panel-collapse collapse in">
+				    <div id="Sctf" class="panel-collapse collapse">
 				
 						<div class="panel-body">
 							<ul class="post">
 								
 								    
-								        <li class="post-list-item"><a href="/2018/11/03/sctf_2018_babysyc/">PWNHUB 公开赛 / 傻 fufu 的工作日</a></li>
+								        <li class="post-list-item"><i class="fa fa-file-text"></i> <a href="/2018/11/03/sctf_2018_babysyc/">PWNHUB 公开赛 / 傻 fufu 的工作日</a></li>
 								    
 								
 								    
@@ -226,13 +231,14 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 					</div>
 			</div>
 			
+			
 			<div class="panel panel-default">
 				<div class="panel-heading">
 					<a class="panel-title" data-toggle="collapse" data-parent="#notebook" href="#Westerns">
 						<i class="fa fa-folder"></i> Westerns		  
 				</a></div>
 				
-					<div id="Westerns" class="panel-collapse collapse in">
+				    <div id="Westerns" class="panel-collapse collapse">
 				
 						<div class="panel-body">
 							<ul class="post">
@@ -244,7 +250,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 								    
 								
 								    
-								        <li class="post-list-item"><a href="/2018/11/02/westerns_2018_shrine/">Westerns CTF 4th 2018 shrine</a></li>
+								        <li class="post-list-item"><i class="fa fa-file-text"></i> <a href="/2018/11/02/westerns_2018_shrine/">Westerns CTF 4th 2018 shrine</a></li>
 								    
 								
 								    
@@ -279,6 +285,14 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	</div>
 </div>
 
+<script>
+$(document).ready(function(){
+	$('.panel-collapse').on('show.bs.collapse', function () {
+		$(".panel-title >i").removeClass().addClass("fa fa-folder");
+	    $("a.panel-title[href$="+$(this).attr("id")+"] i").toggleClass("fa-folder fa-folder-open");
+	});
+})
+</script>
 	</div>
   </div>
   <div class="container-narrow">
@@ -292,6 +306,9 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <a id="gotop" href="#">   
   <span>▲</span> 
 </a>
+
+<div id="github-card" data-sort-by="stars" data-header-text="Most starred repositories" data-max-repos="10" data-username="CTFTraining">
+</div>
 
 <script src="/js/jquery.imagesloaded.min.js"></script>
 <script src="/js/gallery.js"></script>
