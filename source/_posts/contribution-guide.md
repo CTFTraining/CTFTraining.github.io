@@ -4,6 +4,10 @@ toc: true
 date: 2018-11-03 11:51:42
 categories: Info
 tags:
+  - contribution
+  - guide
+  - update
+  - challenge
 ---
 
 # 贡献指南 Contribution Guide
