@@ -1,0 +1,230 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+  <title>Hitcon 2016 Leaking | CTF Training</title>
+  <meta name="author" content="CTF Training">
+  
+  <meta name="description" content="Hitcon 2016 Leaking题目详情
+Nodejs 代码审计
+
+考点
+代码审计
+Sandbox
+Buffer
+
+启动docker-compose up -d
+open http://127.0.0.1:8300/
+版权
+https://github.com/orangetw/My-CTF-">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Hitcon 2016 Leaking">
+  <meta property="og:site_name" content="CTF Training">
+
+  
+    <meta property="og:image" content>
+  
+
+  
+    <link rel="alternative" href="/atom.xml" title="CTF Training" type="application/atom+xml">
+  
+  
+    <link href="/favicon.ico" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/sidenav.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/gh-profile-card.min.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-3.3.1.min.js"></script>
+  <script src="/js/gh-profile-card.min.js"></script>
+
+  <!-- analytics -->
+  
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-83885261-2']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+
+</head>
+</html>
+<body id="body" data-spy="scroll" data-target=".toc">
+  <div class="container" id="container">
+	<div class="content">
+	  <div class="page-header">		
+  <h1><a class="brand" href="/">CTF Training</a><span class="split"></span><span class="title">Hitcon 2016 Leaking</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2019-05-01</span></h1>
+</div>		
+
+<div class="row page">
+  <!-- cols -->	
+  
+  <div class="col-xs-12 col-sm-3 col-md-3 toc"> 
+	<!-- toc -->
+<script type="text/javascript">
+		jQuery(document).ready(function() {
+ 		   generateWikiTOC('.note', '.toc',  2 , 2 );
+		});
+</script>
+  </div><!-- col-md-3 -->
+  
+  
+
+  
+  <div class="col-xs-12 col-sm-9 col-md-9 note">
+	
+
+	  <!-- content -->
+	  <h1 id="Hitcon-2016-Leaking"><a href="#Hitcon-2016-Leaking" class="headerlink" title="Hitcon 2016 Leaking"></a>Hitcon 2016 Leaking</h1><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul>
+<li><strong>Nodejs 代码审计</strong></li>
+</ul>
+<h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul>
+<li>代码审计</li>
+<li>Sandbox</li>
+<li>Buffer</li>
+</ul>
+<h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -d
+open http://127.0.0.1:8300/
+</code></pre><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><blockquote>
+<p><a href="https://github.com/orangetw/My-CTF-Web-Challenges/tree/master/hitcon-ctf-2016/leaking" target="_blank" rel="noopener">https://github.com/orangetw/My-CTF-Web-Challenges/tree/master/hitcon-ctf-2016/leaking</a></p>
+</blockquote>
+<p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:virink@outlook.com" target="_blank" rel="noopener">virink@outlook.com</a> ）</p>
+	  
+
+	  <div>
+  		<center>
+		  <div class="pagination">
+<ul class="pagination">
+	
+	
+	
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			
+			
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+		<li class="prev"><a href="/2019/05/01/hitcon_2017_ssrfme/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+	
+	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
+	
+		<li class="next disabled"><a>next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+	
+</ul>
+</div>
+
+		</center>
+	  </div>
+	  
+	</div> <!-- col-md-9/col-md-12 -->
+	
+  </div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+	<footer> <p>
+  &copy; 2019 CTF Training
+  
+      with help from <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-wixo/">Wixo</a>.    
+</p> </footer>
+  </div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<div id="github-card" data-sort-by="stars" data-header-text="Most starred repositories" data-max-repos="10" data-username="CTFTraining">
+</div>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.tableofcontents.min.js"></script>
+<script src="/js/tocgenerator.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+</html>
