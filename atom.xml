@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ctftraining.github.io/"/>
-  <updated>2019-04-30T20:30:08.107Z</updated>
+  <updated>2019-04-30T20:37:04.471Z</updated>
   <id>https://ctftraining.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://ctftraining.github.io/2019/05/01/insomniteaser_2019_phuck2/"/>
     <id>https://ctftraining.github.io/2019/05/01/insomniteaser_2019_phuck2/</id>
     <published>2019-05-01T04:14:44.000Z</published>
-    <updated>2019-04-30T20:30:08.107Z</updated>
+    <updated>2019-04-30T20:37:04.471Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Insomni-Hacker’s-Teaser-2019-Phuck2"><a href="#Insomni-Hacker’s-Teaser-2019-Phuck2" class="headerlink" title="Insomni Hacker’s Teaser 2019 Phuck2"></a>Insomni Hacker’s Teaser 2019 Phuck2</h1><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li><strong>file_get_contents和include对于Data URI Scheme的处理</strong></li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li><a href="https://en.wikipedia.org/wiki/Data_URI_scheme" target="_blank" rel="noopener">Data URI Scheme</a></li><li>file_get_contents()和include()的基（很）本（骚）操作</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen challenge at http://127.0.0.1:9767/?hl=1</code></pre><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:tiaonmmn@163.com" target="_blank" rel="noopener">tiaonmmn@163.com</a> ）</p>]]></content>
     
@@ -50,7 +50,7 @@
     <link href="https://ctftraining.github.io/2019/05/01/xdctf_2015_filemanager/"/>
     <id>https://ctftraining.github.io/2019/05/01/xdctf_2015_filemanager/</id>
     <published>2019-05-01T04:14:44.000Z</published>
-    <updated>2019-04-30T20:30:08.107Z</updated>
+    <updated>2019-04-30T20:37:04.471Z</updated>
     
     <content type="html"><![CDATA[<h1 id="第六届全国网络安全大赛-XDCTF-2015-线下某题"><a href="#第六届全国网络安全大赛-XDCTF-2015-线下某题" class="headerlink" title="第六届全国网络安全大赛 XDCTF 2015 线下某题"></a>第六届全国网络安全大赛 XDCTF 2015 线下某题</h1><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li><a href="https://www.leavesongs.com/PENETRATION/some-sangebaimao-ctf-writeups.html" target="_blank" rel="noopener">https://www.leavesongs.com/PENETRATION/some-sangebaimao-ctf-writeups.html</a></li><li><strong>PHP 代码审计</strong></li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>代码审计</li><li>二次注入</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:8081/</code></pre><h2 id="复现说明及修改"><a href="#复现说明及修改" class="headerlink" title="复现说明及修改"></a>复现说明及修改</h2><p>该环境根据 github 开源代码 <code>https://github.com/wonderkun/CTF_web/tree/master/web400-2(xdctf)</code> 进行复现。</p><ul><li>为了兼容更高版本的php,我对源代码进行了修改,但是功能还是一样的. By wonderkun</li><li>搭建测试过程中，再次为兼容进行修改源代码。 By Virink</li></ul><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:virink@outlook.com" target="_blank" rel="noopener">virink@outlook.com</a> ）</p>]]></content>
     
@@ -79,7 +79,7 @@
     <link href="https://ctftraining.github.io/2019/05/01/wdb_2018_unfinish/"/>
     <id>https://ctftraining.github.io/2019/05/01/wdb_2018_unfinish/</id>
     <published>2019-05-01T04:14:44.000Z</published>
-    <updated>2019-04-30T20:30:08.107Z</updated>
+    <updated>2019-04-30T20:37:04.471Z</updated>
     
     <content type="html"><![CDATA[<h1 id="网鼎杯-2018-Unfinish"><a href="#网鼎杯-2018-Unfinish" class="headerlink" title="网鼎杯 2018 Unfinish"></a>网鼎杯 2018 Unfinish</h1><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li><strong>SQLi 花式盲注</strong></li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>SQL Injection</li><li>Blind</li><li>filter</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:8308/</code></pre><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:virink@outlook.com" target="_blank" rel="noopener">virink@outlook.com</a> ）</p>]]></content>
     
@@ -108,7 +108,7 @@
     <link href="https://ctftraining.github.io/2019/05/01/wdb_2018_fakebook/"/>
     <id>https://ctftraining.github.io/2019/05/01/wdb_2018_fakebook/</id>
     <published>2019-05-01T04:14:44.000Z</published>
-    <updated>2019-04-30T20:30:08.107Z</updated>
+    <updated>2019-04-30T20:37:04.471Z</updated>
     
     <content type="html"><![CDATA[<h1 id="网鼎杯-2018-Fakebook"><a href="#网鼎杯-2018-Fakebook" class="headerlink" title="网鼎杯 2018 Fakebook"></a>网鼎杯 2018 Fakebook</h1><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li><strong>Unserialize</strong></li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>SQL Injection</li><li>Unserialize</li><li>SSRF</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:8306/</code></pre><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:virink@outlook.com" target="_blank" rel="noopener">virink@outlook.com</a> ）</p>]]></content>
     
@@ -137,7 +137,7 @@
     <link href="https://ctftraining.github.io/2019/05/01/wdb_2018_comment/"/>
     <id>https://ctftraining.github.io/2019/05/01/wdb_2018_comment/</id>
     <published>2019-05-01T04:14:44.000Z</published>
-    <updated>2019-04-30T20:30:08.107Z</updated>
+    <updated>2019-04-30T20:37:04.471Z</updated>
     
     <content type="html"><![CDATA[<h1 id="网鼎杯-2018-Comment"><a href="#网鼎杯-2018-Comment" class="headerlink" title="网鼎杯 2018 Comment"></a>网鼎杯 2018 Comment</h1><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li><strong>基础渗透</strong></li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>SQL Injection</li><li>.git</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:8307/</code></pre><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:virink@outlook.com" target="_blank" rel="noopener">virink@outlook.com</a> ）</p>]]></content>
     
@@ -164,7 +164,7 @@
     <link href="https://ctftraining.github.io/2019/05/01/starctf_2019_echohub/"/>
     <id>https://ctftraining.github.io/2019/05/01/starctf_2019_echohub/</id>
     <published>2019-05-01T04:14:44.000Z</published>
-    <updated>2019-04-30T20:30:08.107Z</updated>
+    <updated>2019-04-30T20:37:04.471Z</updated>
     
     <content type="html"><![CDATA[<h1 id="CTF-StarCTF-2019-EchoHub"><a href="#CTF-StarCTF-2019-EchoHub" class="headerlink" title="*CTF(StarCTF) 2019 EchoHub"></a>*CTF(StarCTF) 2019 EchoHub</h1><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li>*CTF(StarCTF) 2019 EchoHub</li><li><strong>Source Code</strong></li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>stack overflow</li><li>php seed/rand</li><li>php create_function</li><li>bypass disable_function</li><li>php-fpm fastcgi</li><li>php stream_socket</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:8081/</code></pre><h3 id="Writeups"><a href="#Writeups" class="headerlink" title="Writeups"></a>Writeups</h3><ul><li><a href="writeup.md">writeup.md</a></li></ul><h2 id="复现说明及修改"><a href="#复现说明及修改" class="headerlink" title="复现说明及修改"></a>复现说明及修改</h2><p>该环境根据比赛过程显示的源码进行复现。</p><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:virink@outlook.com" target="_blank" rel="noopener">virink@outlook.com</a> ）</p>]]></content>
     
@@ -199,7 +199,7 @@
     <link href="https://ctftraining.github.io/2019/05/01/starctf_2019_996game/"/>
     <id>https://ctftraining.github.io/2019/05/01/starctf_2019_996game/</id>
     <published>2019-05-01T04:14:44.000Z</published>
-    <updated>2019-04-30T20:30:08.107Z</updated>
+    <updated>2019-04-30T20:37:04.471Z</updated>
     
     <content type="html"><![CDATA[<h1 id="CTF-StarCTF-2019-996game"><a href="#CTF-StarCTF-2019-996game" class="headerlink" title="*CTF(StarCTF) 2019 996game"></a>*CTF(StarCTF) 2019 996game</h1><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li>*CTF(StarCTF) 2019 996game</li><li><strong>Source Code?</strong></li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>nodejs code audit</li><li>socket.io</li><li>nosql injection</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:8081/</code></pre><h3 id="Writeups"><a href="#Writeups" class="headerlink" title="Writeups"></a>Writeups</h3><ul><li><a href="writeup.md">writeup.md</a></li></ul><h2 id="复现说明及修改"><a href="#复现说明及修改" class="headerlink" title="复现说明及修改"></a>复现说明及修改</h2><p>该环境根据<a href="https://github.com/sixstars/starctf2019" target="_blank" rel="noopener">sixstars 开源代码</a>源码进行复现。</p><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:virink@outlook.com" target="_blank" rel="noopener">virink@outlook.com</a> ）</p>]]></content>
     
@@ -228,7 +228,7 @@
     <link href="https://ctftraining.github.io/2019/05/01/rwctf_2018_bookhub/"/>
     <id>https://ctftraining.github.io/2019/05/01/rwctf_2018_bookhub/</id>
     <published>2019-05-01T04:14:44.000Z</published>
-    <updated>2019-04-30T20:30:08.107Z</updated>
+    <updated>2019-04-30T20:37:04.471Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Real-World-CTF-2018-Bookhub"><a href="#Real-World-CTF-2018-Bookhub" class="headerlink" title="Real World CTF 2018 Bookhub"></a>Real World CTF 2018 Bookhub</h1><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li><strong>Python Web 代码审计</strong></li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>代码审计</li><li>XFF</li><li>Unauthorized</li><li>Redis</li><li>Lua Code Injection</li><li>flask_session unpickle</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:10008/</code></pre><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:virink@outlook.com" target="_blank" rel="noopener">virink@outlook.com</a> ）</p>]]></content>
     
@@ -241,7 +241,7 @@
     
     </summary>
     
-      <category term="Real World CTF" scheme="https://ctftraining.github.io/categories/Real-World-CTF/"/>
+      <category term="RealWorldCTF" scheme="https://ctftraining.github.io/categories/RealWorldCTF/"/>
     
     
       <category term="source code" scheme="https://ctftraining.github.io/tags/source-code/"/>
@@ -263,7 +263,7 @@
     <link href="https://ctftraining.github.io/2019/05/01/hitcon_2017_ssrfme/"/>
     <id>https://ctftraining.github.io/2019/05/01/hitcon_2017_ssrfme/</id>
     <published>2019-05-01T04:14:44.000Z</published>
-    <updated>2019-04-30T20:30:08.107Z</updated>
+    <updated>2019-04-30T20:37:04.471Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Hitcon-2017-SSRFme"><a href="#Hitcon-2017-SSRFme" class="headerlink" title="Hitcon 2017 SSRFme"></a>Hitcon 2017 SSRFme</h1><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li><strong>Perl 代码审计</strong></li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>Perl</li><li>SSRF</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:8303/</code></pre><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:virink@outlook.com" target="_blank" rel="noopener">virink@outlook.com</a> ）</p>]]></content>
     
@@ -290,7 +290,7 @@
     <link href="https://ctftraining.github.io/2019/05/01/meepwn_2018_pycalx/"/>
     <id>https://ctftraining.github.io/2019/05/01/meepwn_2018_pycalx/</id>
     <published>2019-05-01T04:14:44.000Z</published>
-    <updated>2019-04-30T20:30:08.107Z</updated>
+    <updated>2019-04-30T20:37:04.471Z</updated>
     
     <content type="html"><![CDATA[<h1 id="MeePwnCTF-2018-PyCalX-1-amp-2"><a href="#MeePwnCTF-2018-PyCalX-1-amp-2" class="headerlink" title="MeePwnCTF 2018 PyCalX 1&amp;2"></a>MeePwnCTF 2018 PyCalX 1&amp;2</h1><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li><strong>基本Python运算</strong></li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>Python3.6 f-string</li><li>PYthon字符串比较</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen PyCalX Version 1 at http://127.0.0.1:4320/cgi-bin/pycalx.pyopen PyCalX Version 2 at http://127.0.0.1:4320/cgi-bin/pycalx2.py</code></pre><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:tiaonmmn@163.com" target="_blank" rel="noopener">tiaonmmn@163.com</a> ）</p>]]></content>
     
@@ -319,7 +319,7 @@
     <link href="https://ctftraining.github.io/2019/05/01/lctf_2018_bestphp_s_revenge/"/>
     <id>https://ctftraining.github.io/2019/05/01/lctf_2018_bestphp_s_revenge/</id>
     <published>2019-05-01T04:14:44.000Z</published>
-    <updated>2019-04-30T20:30:08.107Z</updated>
+    <updated>2019-04-30T20:37:04.471Z</updated>
     
     <content type="html"><![CDATA[<h1 id="LCTF-2018-bestphp’s-revenge"><a href="#LCTF-2018-bestphp’s-revenge" class="headerlink" title="LCTF 2018 bestphp’s revenge"></a>LCTF 2018 bestphp’s revenge</h1><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li><a href="https://lctf.pwnhub.cn" target="_blank" rel="noopener">https://lctf.pwnhub.cn</a></li><li>LCTF 2018 Web bestphp’s revenge</li><li><strong>PHP 特性</strong></li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>session<ul><li>session_start</li><li>serialize_handler</li><li>serialize/unserialize</li></ul></li><li>call_user_func</li><li>SoapClient</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:8081/</code></pre><h2 id="复现说明及修改"><a href="#复现说明及修改" class="headerlink" title="复现说明及修改"></a>复现说明及修改</h2><ul><li>数组键名字符串化</li></ul><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚已取得主办方及出题人相关授权</p><p>题目代码来源 <a href="https://xz.aliyun.com/t/3341#toc-22" target="_blank" rel="noopener">bestphp’s revenge - LCTF 2018 Writeup – Nu1L</a></p><p>ps. 做题的时候忘记存了，emmmmm</p>]]></content>
     
@@ -348,7 +348,7 @@
     <link href="https://ctftraining.github.io/2019/05/01/insomniteaser_2019_l33t_hoster/"/>
     <id>https://ctftraining.github.io/2019/05/01/insomniteaser_2019_l33t_hoster/</id>
     <published>2019-05-01T04:14:44.000Z</published>
-    <updated>2019-04-30T20:30:08.107Z</updated>
+    <updated>2019-04-30T20:37:04.471Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Insomni-hacker’s-Teaser-2019-l33t-hoster"><a href="#Insomni-hacker’s-Teaser-2019-l33t-hoster" class="headerlink" title="Insomni hacker’s Teaser 2019 l33t-hoster"></a>Insomni hacker’s Teaser 2019 l33t-hoster</h1><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li><strong>常见PHP技巧</strong></li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>.htaccess上传绕过</li><li>LD_PRELOAD绕过disable_functions</li><li>基础C编程</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:3095/</code></pre><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:tiaonmmn@163.com" target="_blank" rel="noopener">tiaonmmn@163.com</a> ）</p>]]></content>
     
@@ -377,7 +377,7 @@
     <link href="https://ctftraining.github.io/2019/05/01/hctf_2018_warmup/"/>
     <id>https://ctftraining.github.io/2019/05/01/hctf_2018_warmup/</id>
     <published>2019-05-01T04:08:06.000Z</published>
-    <updated>2019-04-30T20:30:08.103Z</updated>
+    <updated>2019-04-30T20:37:04.471Z</updated>
     
     <content type="html"><![CDATA[<h1 id="HCTF-2018-Warmup"><a href="#HCTF-2018-Warmup" class="headerlink" title="HCTF 2018 Warmup"></a>HCTF 2018 Warmup</h1><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li>HCTF 2018 Web 签到题</li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>代码审计<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">$_page = mb_substr(</span><br><span class="line">    $page,</span><br><span class="line">    <span class="number">0</span>,</span><br><span class="line">    mb_strpos($page . <span class="string">'?'</span>, <span class="string">'?'</span>)</span><br><span class="line">);</span><br><span class="line"><span class="keyword">if</span> (in_array($_page, $whitelist)) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><ul><li>docker-compose up -d</li><li>open <a href="http://127.0.0.1:8081/index.php" target="_blank" rel="noopener">http://127.0.0.1:8081/index.php</a></li></ul><h2 id="Writeup"><a href="#Writeup" class="headerlink" title="Writeup"></a>Writeup</h2><p><img src="http://image.cocoli.top/20181113154210017010415.png" alt="20181113154210017010415.png"><br><code>http://127.0.0.1:8081/index.php?file=hint.php?/../../../../../../../../ffffllllaaaagggg</code><br>可以利用?截取hint.php，然后利用/使hint.php?成为一个不存在的目录，最后include利用../../跳转目录读取flag</p><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:cocolizdf@gmail.com" target="_blank" rel="noopener">cocolizdf@gmail.com</a>）</p><p>凭印象弄的,稍微有一些改变,题目考点不变.<br>官方题目代码<a href="https://github.com/vidar-team/HCTF2018" target="_blank" rel="noopener">https://github.com/vidar-team/HCTF2018</a></p>]]></content>
     
@@ -406,7 +406,7 @@
     <link href="https://ctftraining.github.io/2019/05/01/34c3ctf_2017_urlstorage/"/>
     <id>https://ctftraining.github.io/2019/05/01/34c3ctf_2017_urlstorage/</id>
     <published>2019-05-01T04:08:06.000Z</published>
-    <updated>2019-04-30T20:30:08.103Z</updated>
+    <updated>2019-04-30T20:37:04.471Z</updated>
     
     <content type="html"><![CDATA[<h1 id="34C3CTF-2016-urlstorage"><a href="#34C3CTF-2016-urlstorage" class="headerlink" title="34C3CTF 2016 urlstorage"></a>34C3CTF 2016 urlstorage</h1><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li>Finally someone has created a neat little urlstorage service.</li></ul><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>XSS and CSRF are not the only client-side attacks.</p><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>XSS</li><li>CSRF</li><li>CSS-STEAL-TOKEN</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>需要编辑*docker-compose.yml*文件里面的环境变量 DOMAIN,默认127.0.0.1作为 cookie 的domain.docker-compose up -dopen http://127.0.0.1:80/ or http://34c3ctf2017.local.virzz.com/</code></pre><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:virink@outlook.com" target="_blank" rel="noopener">virink@outlook.com</a> ）</p>]]></content>
     
@@ -435,7 +435,7 @@
     <link href="https://ctftraining.github.io/2019/05/01/ddctf_2019_homebrew_event_loop/"/>
     <id>https://ctftraining.github.io/2019/05/01/ddctf_2019_homebrew_event_loop/</id>
     <published>2019-05-01T04:08:06.000Z</published>
-    <updated>2019-04-30T20:30:08.103Z</updated>
+    <updated>2019-04-30T20:37:04.471Z</updated>
     
     <content type="html"><![CDATA[<h1 id="DDCTF-2019-homebrew-event-loop"><a href="#DDCTF-2019-homebrew-event-loop" class="headerlink" title="DDCTF 2019 homebrew event loop"></a>DDCTF 2019 homebrew event loop</h1><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li>DDCTF 2019 homebrew event loop</li><li><a href="http://116.85.48.107:5002/d5afe1f66147e857/" target="_blank" rel="noopener">http://116.85.48.107:5002/d5afe1f66147e857/</a></li><li><strong>Source Code</strong></li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>Flask session</li><li>Python eval</li><li>POP</li><li>Bypass Sandbox</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:8081/d5afe1f66147e857/</code></pre><h3 id="Writeups-amp-Exp-py"><a href="#Writeups-amp-Exp-py" class="headerlink" title="Writeups &amp; Exp.py"></a>Writeups &amp; Exp.py</h3><ul><li><a href="https://xz.aliyun.com/t/4887#toc-5" target="_blank" rel="noopener">homebrew event loop - ddctf2019-misc&amp;web&amp;re-writeup - 先知</a></li><li><a href="exp.py">exp.py</a></li></ul><h2 id="复现说明及修改"><a href="#复现说明及修改" class="headerlink" title="复现说明及修改"></a>复现说明及修改</h2><p>该环境根据比赛过程显示的源码进行复现。</p><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:virink@outlook.com" target="_blank" rel="noopener">virink@outlook.com</a> ）</p>]]></content>
     
@@ -468,7 +468,7 @@
     <link href="https://ctftraining.github.io/2019/05/01/hctf_2017_deserted_place/"/>
     <id>https://ctftraining.github.io/2019/05/01/hctf_2017_deserted_place/</id>
     <published>2019-05-01T04:08:06.000Z</published>
-    <updated>2019-04-30T20:30:08.103Z</updated>
+    <updated>2019-04-30T20:37:04.471Z</updated>
     
     <content type="html"><![CDATA[<h1 id="HCTF-2017-Deserted-place"><a href="#HCTF-2017-Deserted-place" class="headerlink" title="HCTF 2017 Deserted place"></a>HCTF 2017 Deserted place</h1><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li><strong>XSS</strong></li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>XSS</li><li><a href="https://lorexxar.cn/2017/11/15/hctf2017-deserted-world/" target="_blank" rel="noopener">SOME攻击</a></li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:8305/</code></pre><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:virink@outlook.com" target="_blank" rel="noopener">virink@outlook.com</a> ）</p>]]></content>
     
@@ -495,7 +495,7 @@
     <link href="https://ctftraining.github.io/2019/05/01/hitcon_2016_leaking/"/>
     <id>https://ctftraining.github.io/2019/05/01/hitcon_2016_leaking/</id>
     <published>2019-05-01T04:08:06.000Z</published>
-    <updated>2019-04-30T20:30:08.103Z</updated>
+    <updated>2019-04-30T20:37:04.471Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Hitcon-2016-Leaking"><a href="#Hitcon-2016-Leaking" class="headerlink" title="Hitcon 2016 Leaking"></a>Hitcon 2016 Leaking</h1><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li><strong>Nodejs 代码审计</strong></li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>代码审计</li><li>Sandbox</li><li>Buffer</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:8300/</code></pre><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><blockquote><p><a href="https://github.com/orangetw/My-CTF-Web-Challenges/tree/master/hitcon-ctf-2016/leaking" target="_blank" rel="noopener">https://github.com/orangetw/My-CTF-Web-Challenges/tree/master/hitcon-ctf-2016/leaking</a></p></blockquote><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:virink@outlook.com" target="_blank" rel="noopener">virink@outlook.com</a> ）</p>]]></content>
     
@@ -526,7 +526,7 @@
     <link href="https://ctftraining.github.io/2019/05/01/0ctf_2016_unserialize/"/>
     <id>https://ctftraining.github.io/2019/05/01/0ctf_2016_unserialize/</id>
     <published>2019-05-01T04:08:06.000Z</published>
-    <updated>2019-04-30T20:30:08.103Z</updated>
+    <updated>2019-04-30T20:37:04.471Z</updated>
     
     <content type="html"><![CDATA[<h1 id="0CTF-2016-Unserialize"><a href="#0CTF-2016-Unserialize" class="headerlink" title="0CTF 2016 Unserialize"></a>0CTF 2016 Unserialize</h1><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li><strong>PHP 代码审计</strong></li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>代码审计</li><li>Unserialize</li><li>LFR</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:8302/</code></pre><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>该题目复现环境尚未取得主办方及出题人相关授权，如果侵权，请联系本人删除（ <a href="mailto:virink@outlook.com" target="_blank" rel="noopener">virink@outlook.com</a> ）</p>]]></content>
     
@@ -555,7 +555,7 @@
     <link href="https://ctftraining.github.io/2018/11/03/sctf_2018_babysyc/"/>
     <id>https://ctftraining.github.io/2018/11/03/sctf_2018_babysyc/</id>
     <published>2018-11-03T12:08:36.000Z</published>
-    <updated>2019-04-30T20:30:08.107Z</updated>
+    <updated>2019-04-30T20:37:04.471Z</updated>
     
     <content type="html"><![CDATA[<h1 id="SCTF-2018-BabySyc-Simple-PHP-Web"><a href="#SCTF-2018-BabySyc-Simple-PHP-Web" class="headerlink" title="SCTF 2018 BabySyc - Simple PHP Web"></a>SCTF 2018 BabySyc - Simple PHP Web</h1><h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><p><a href="https://github.com/CTFTraining/sctf_2018_babysyc" target="_blank" rel="noopener">sctf_2018_babysyc</a></p><h2 id="题目详情"><a href="#题目详情" class="headerlink" title="题目详情"></a>题目详情</h2><ul><li>php加密扩展</li></ul><h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><ul><li>php加密扩展（逆向）</li><li>本地包含</li><li>代码审计</li><li>加密解密</li></ul><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><pre><code>docker-compose up -dopen http://127.0.0.1:8081/</code></pre><h2 id="Writeups"><a href="#Writeups" class="headerlink" title="Writeups"></a>Writeups</h2><blockquote><p><a href="https://www.cnblogs.com/iamstudy/articles/sctf2018_simple_php_web_writeup.html" target="_blank" rel="noopener">SCTF2018 BabySyc - Simple PHP Web Writeup - l3m0n</a><br>拓展 <a href="https://xz.aliyun.com/t/2403" target="_blank" rel="noopener">看我如何玩转PHP代码加密与解密</a></p></blockquote><h2 id="版权"><a href="#版权" class="headerlink" title="版权"></a>版权</h2><p>感谢 l3m0n@SCTF2018 友情支持</p>]]></content>
     
@@ -586,7 +586,7 @@
     <link href="https://ctftraining.github.io/2018/11/03/contribution-guide/"/>
     <id>https://ctftraining.github.io/2018/11/03/contribution-guide/</id>
     <published>2018-11-03T11:51:42.000Z</published>
-    <updated>2019-04-30T20:30:08.103Z</updated>
+    <updated>2019-04-30T20:37:04.471Z</updated>
     
     <content type="html"><![CDATA[<h1 id="贡献指南-Contribution-Guide"><a href="#贡献指南-Contribution-Guide" class="headerlink" title="贡献指南 Contribution Guide"></a>贡献指南 Contribution Guide</h1><h2 id="Repository-Rules"><a href="#Repository-Rules" class="headerlink" title="Repository Rules"></a>Repository Rules</h2><h3 id="Name-Rules"><a href="#Name-Rules" class="headerlink" title="Name Rules"></a>Name Rules</h3><p>比赛名称_年份<em>题目名称</em>其他 GameName_Year_ChallengeName_Others <code>/\w+_\d{4}_\w+/</code></p><p>eg. <code>westerns_2018_shrine</code> and <code>ctf473831530_2018_web_virink</code></p><h3 id="Description-Rules"><a href="#Description-Rules" class="headerlink" title="Description Rules"></a>Description Rules</h3><p>Able to describe clearly what the challenge is.</p><p>eg. <strong>护网杯 2018 WEB (4) easy_laravel</strong> and <strong>CTF学习交流入群题 Web 20180626</strong></p><h3 id="File-Rules"><a href="#File-Rules" class="headerlink" title="File Rules"></a>File Rules</h3><ul><li><strong>Dockerfile (require)</strong></li><li><strong>docker-compose.yml (require)</strong></li><li><strong>README.md (require)</strong></li><li><strong>SourceCode file or directory (require)</strong></li><li>vhost.conf</li><li>.gitignore</li><li>LICENSE</li></ul><p>Just like other challenge.</p><h2 id="How-to-contribute-challenge"><a href="#How-to-contribute-challenge" class="headerlink" title="How to contribute challenge"></a>How to contribute challenge</h2><ol><li>Create a challenge repository on GitHub</li><li>Create a new issue in this repository</li><li>Waiting for the audit</li><li>We will fork your repository after approval</li></ol><h2 id="How-to-update-existing-challenge"><a href="#How-to-update-existing-challenge" class="headerlink" title="How to update existing challenge"></a>How to update existing challenge</h2><ol><li>Update your repository</li><li>Pull Request</li><li>Waiting for the audit</li><li>We will merge your repository after approval</li></ol>]]></content>
     
